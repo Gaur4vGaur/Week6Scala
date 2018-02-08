@@ -1,21 +1,21 @@
-[info] Updating {file:/C:/1My/study/project/coursera/forcomp/project/}forcomp-build...
-[debug] :: resolving dependencies :: default#forcomp-build;0.1-SNAPSHOT
+[info] Updating {file:/home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/}week6scala-build...
+[debug] :: resolving dependencies :: default#week6scala-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
 [info] Resolving org.scala-sbt#global-plugins;0.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#global-plugins;0.0 {compile=[default(compile)]}
 [debug] 	found org.scala-sbt#global-plugins;0.0 in inter-project
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
 [info] Resolving org.scalastyle#scalastyle_2.10;0.8.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scalastyle#scalastyle_2.10;0.8.0
 [debug] 	found org.scalastyle#scalastyle_2.10;0.8.0 in sbt-chain
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -51,36 +51,36 @@
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
 [info] Resolving org.scalaj#scalaj-http_2.10;2.2.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalaj#scalaj-http_2.10;2.2.1 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.10;2.2.1
 [debug] 	found org.scalaj#scalaj-http_2.10;2.2.1 in sbt-chain
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.10 ...
 [debug] sbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.10 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.10
 [debug] 	found commons-codec#commons-codec;1.10 in sbt-chain
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-lang3;3.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.apache.commons#commons-lang3;3.4 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-lang3;3.4
 [debug] 	found org.apache.commons#commons-lang3;3.4 in sbt-chain
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
 [info] Resolving com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0
@@ -145,7 +145,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0->org.scalaz#scalaz-effect_2.10;7.2.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
 [info] Resolving org.scala-js#sbt-scalajs;0.6.11 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-js#sbt-scalajs;0.6.11 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-js#sbt-scalajs;0.6.11
@@ -452,13 +452,13 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
 [info] Resolving io.get-coursier#sbt-coursier;1.0.0-RC2 ...
 [debug] sbt-chain: Checking cache for: dependency: io.get-coursier#sbt-coursier;1.0.0-RC2 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: io.get-coursier#sbt-coursier;1.0.0-RC2
 [debug] 	found io.get-coursier#sbt-coursier;1.0.0-RC2 in sbt-chain
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-RC2->io.get-coursier#coursier_2.10;1.0.0-RC2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -752,16 +752,16 @@
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-RC2->io.get-coursier#coursier_2.10;1.0.0-RC2 [runtime->compile]
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-RC2->io.get-coursier#coursier-cache_2.10;1.0.0-RC2 [runtime->runtime(*)]
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-RC2->io.get-coursier#coursier-cache_2.10;1.0.0-RC2 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
@@ -778,24 +778,24 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0->org.scalaz#scalaz-core_2.10;7.2.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -846,7 +846,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0->org.scalaz#scalaz-effect_2.10;7.2.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-tools_2.10;0.6.11 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -1071,9 +1071,9 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-RC2->io.get-coursier#coursier_2.10;1.0.0-RC2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -1314,17 +1314,17 @@
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scalaz#scalaz-core_2.10;7.2.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scalaz#scalaz-core_2.10;7.2.8 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
@@ -1341,24 +1341,24 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0->org.scalaz#scalaz-core_2.10;7.2.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -1409,7 +1409,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0->org.scalaz#scalaz-effect_2.10;7.2.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-tools_2.10;0.6.11 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -1634,9 +1634,9 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-RC2->io.get-coursier#coursier_2.10;1.0.0-RC2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -1877,16 +1877,16 @@
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scalaz#scalaz-core_2.10;7.2.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scalaz#scalaz-core_2.10;7.2.8 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.9 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.9
@@ -2735,14 +2735,14 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
@@ -2759,24 +2759,24 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0->org.scalaz#scalaz-core_2.10;7.2.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -2827,7 +2827,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0->org.scalaz#scalaz-effect_2.10;7.2.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-tools_2.10;0.6.11 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -3052,9 +3052,9 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-RC2->io.get-coursier#coursier_2.10;1.0.0-RC2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -3295,16 +3295,16 @@
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scalaz#scalaz-core_2.10;7.2.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scalaz#scalaz-core_2.10;7.2.8 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->compile]
@@ -3904,13 +3904,13 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
@@ -3927,24 +3927,24 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0->org.scalaz#scalaz-core_2.10;7.2.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -3995,7 +3995,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0->org.scalaz#scalaz-effect_2.10;7.2.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-tools_2.10;0.6.11 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -4220,9 +4220,9 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-RC2->io.get-coursier#coursier_2.10;1.0.0-RC2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -4463,19 +4463,19 @@
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scalaz#scalaz-core_2.10;7.2.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scalaz#scalaz-core_2.10;7.2.8 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-sbt#global-plugins;0.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->org.scalariform#scalariform_2.10;0.1.7 [compile->master(compile)]
@@ -4492,24 +4492,24 @@
 [debug] == resolving dependencies org.scalariform#scalariform_2.10;0.1.7->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->compile]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaj#scalaj-http_2.10;2.2.1->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scalaj#scalaj-http_2.10;2.2.1 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->commons-codec#commons-codec;1.10 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.apache.commons#commons-lang3;3.4 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0->org.scalaz#scalaz-core_2.10;7.2.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -4560,7 +4560,7 @@
 [debug] == resolving dependencies com.typesafe.sbteclipse#sbteclipse-plugin;5.1.0->org.scalaz#scalaz-effect_2.10;7.2.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-js#sbt-scalajs;0.6.11 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-tools_2.10;0.6.11 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[default(compile)]}
@@ -4785,9 +4785,9 @@
 [debug] == resolving dependencies org.scala-js#sbt-scalajs;0.6.11->org.scala-js#scalajs-sbt-test-adapter_2.10;0.6.11 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-RC2->io.get-coursier#coursier_2.10;1.0.0-RC2 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
@@ -5028,16 +5028,16 @@
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scala-lang#scala-library;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scalaz#scalaz-core_2.10;7.2.8 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.8->org.scalaz#scalaz-core_2.10;7.2.8 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-RC2 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.6 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->default(compile)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [provided->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.9 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->compile]
@@ -5637,18 +5637,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.5 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.5 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#forcomp-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies for default#week6scala-build;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->default]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-library;2.10.5 [compile->default]
@@ -5666,8 +5666,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#scala-reflect;2.10.5 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.5->org.scala-lang#scala-library;2.10.5 [runtime->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.5->org.scala-lang#jline;2.10.5 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.5 {optional=[compile(*), master(*)]}
@@ -5680,11 +5680,11 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.5->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->default]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->compile]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->master]
-[debug] == resolving dependencies default#forcomp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->default]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->runtime]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->compile]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->master]
+[debug] == resolving dependencies default#week6scala-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.jar
@@ -5773,19 +5773,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.5!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1097ms :: artifacts dl 70ms
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT compile produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-compile.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT runtime produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-runtime.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT test produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-test.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT provided produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-provided.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT optional produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-optional.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT compile-internal produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-compile-internal.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT runtime-internal produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-runtime-internal.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT test-internal produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-test-internal.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT plugin produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-plugin.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT sources produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-sources.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT docs produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-docs.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT pom produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-pom.xml
-[debug] 	report for default#forcomp-build;0.1-SNAPSHOT scala-tool produced in C:\1My\study\project\coursera\forcomp\project\target\resolution-cache\reports\default-forcomp-build-scala-tool.xml
-[debug] 	resolve done (1097ms resolve - 70ms download)
+[debug] :: resolution report :: resolve 4746ms :: artifacts dl 972ms
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT compile produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-compile.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT runtime produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-runtime.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT test produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-test.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT provided produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-provided.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT optional produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-optional.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT compile-internal produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-compile-internal.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT runtime-internal produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-runtime-internal.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT test-internal produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-test-internal.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT plugin produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-plugin.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT sources produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-sources.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT docs produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-docs.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT pom produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-pom.xml
+[debug] 	report for default#week6scala-build;0.1-SNAPSHOT scala-tool produced in /home/gaurav/1My/study/myprojects/coursea-Scala/Week6Scala/project/target/resolution-cache/reports/default-week6scala-build-scala-tool.xml
+[debug] 	resolve done (4746ms resolve - 972ms download)
 [info] Done updating.

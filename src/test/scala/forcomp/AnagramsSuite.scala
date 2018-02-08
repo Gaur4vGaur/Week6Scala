@@ -11,19 +11,14 @@ import Anagrams._
 class AnagramsSuite extends FunSuite  {
 
   test("1") {
-    assert(combinations1(List()) == List(Nil))
+    assert(combinations(List()) == List(Nil))
   }
 
   test("2") {
-    assert(combinations1(List(('a', 2))) == List(Nil, List(('a', 1)), List(('a', 2))))
+    assert(combinations(List(('a', 2))) == List(Nil, List(('a', 1)), List(('a', 2))))
   }
 
-  test("3") {
-    assert(combinations1(List(('a', 2), ('b', 2))) == List(Nil, List(('a', 1)), List(('a', 2))))
-  }
-
-
-  /*test("wordOccurrences: abcd") {
+  test("wordOccurrences: abcd") {
     assert(wordOccurrences("abcd") === List(('a', 1), ('b', 1), ('c', 1), ('d', 1)))
   }
 
@@ -111,6 +106,6 @@ class AnagramsSuite extends FunSuite  {
       List("Linux", "rulez")
     )
     assert(sentenceAnagrams(sentence).toSet === anas.toSet)
-  }*/
+  }
 
 }

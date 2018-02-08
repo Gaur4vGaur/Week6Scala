@@ -2,6 +2,8 @@ package forcomp
 
 import forcomp.Anagrams.Occurrences
 
+import scala.annotation.tailrec
+
 
 object Anagrams {
 
@@ -90,19 +92,28 @@ object Anagrams {
     * Note that the order of the occurrence list subsets does not matter -- the subsets
     * in the example above could have been displayed in some other order.
     */
-  def combinations(occurrences: Occurrences): List[Occurrences] = ???
+  //def combinations(occurrences: Occurrences): List[Occurrences] = ???
 
-  def combinations1(occurrences: Occurrences) = {
-      val a: List[(Char, Int)] = for{
-        o <- occurrences
+  def combinations(occurrences: Occurrences): List[Occurrences] = {
+
+    @tailrec
+    def c(o: Occurrences, r: List[Occurrences]): List[Occurrences] = {
+      o match {
+        case Nil => r
+        case h :: t =>
+          val self: Seq[List[(Char, Int)]] = (1 to h._2) map (x => List((h._1, x)))
+          val b: Seq[Anagrams.Occurrences] = (1 to h._2) flatMap { i => a((h._1, i), t) }
+          c(t, r ++ self ++ b)
+      }
+    }
+
+    def a(h: (Char, Int), t: Occurrences): List[Occurrences] =
+      for {
+        o <- t
         i <- 1 to o._2
-      } yield ((o._1,i))
+      } yield List(h).+:((o._1, i))
 
-     for {
-       a1 <- a
-       a2 <- a
-     } yield (a1, a2)
-
+    c(occurrences, List[Occurrences](List()))
   }
 
   /** Subtracts occurrence list `y` from occurrence list `x`.
