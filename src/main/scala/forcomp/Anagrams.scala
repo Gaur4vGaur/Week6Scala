@@ -1,5 +1,7 @@
 package forcomp
 
+import forcomp.Anagrams.Occurrences
+
 
 object Anagrams {
 
@@ -90,17 +92,17 @@ object Anagrams {
     */
   def combinations(occurrences: Occurrences): List[Occurrences] = ???
 
-  def combinations1(occurrences: Occurrences): List[Occurrences] = {
+  def combinations1(occurrences: Occurrences) = {
+      val a: List[(Char, Int)] = for{
+        o <- occurrences
+        i <- 1 to o._2
+      } yield ((o._1,i))
 
-    def recOcc(occurrences: Occurrences, comb: List[Occurrences]): List[Occurrences] = {
-      comb
-    }
+     for {
+       a1 <- a
+       a2 <- a
+     } yield (a1, a2)
 
-    def combine(list: List[Occurrences], c: Char, i: Int): List[Occurrences] = {
-      Nil
-    }
-
-    recOcc(occurrences, List[Occurrences](Nil))
   }
 
   /** Subtracts occurrence list `y` from occurrence list `x`.

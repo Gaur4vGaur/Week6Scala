@@ -11,7 +11,15 @@ import Anagrams._
 class AnagramsSuite extends FunSuite  {
 
   test("1") {
-    assert(combinations1(List()) == Nil)
+    assert(combinations1(List()) == List(Nil))
+  }
+
+  test("2") {
+    assert(combinations1(List(('a', 2))) == List(Nil, List(('a', 1)), List(('a', 2))))
+  }
+
+  test("3") {
+    assert(combinations1(List(('a', 2), ('b', 2))) == List(Nil, List(('a', 1)), List(('a', 2))))
   }
 
 
