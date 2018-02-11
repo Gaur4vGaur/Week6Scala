@@ -111,7 +111,7 @@ object Anagrams {
       for {
         o <- t
         i <- 1 to o._2
-      } yield List(h).+:((o._1, i))
+      } yield  List(h, (o._1, i))
 
     c(occurrences, List[Occurrences](List()))
   }
