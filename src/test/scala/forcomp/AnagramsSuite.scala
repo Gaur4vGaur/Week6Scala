@@ -11,11 +11,29 @@ import Anagrams._
 class AnagramsSuite extends FunSuite  {
 
   test("3") {
-    val sentence = List("owl")
-    println(sentence.map(wordAnagrams))
+    val sentence = List("Yes", "man")
+
+    val a = List(
+      List("yesman"),
+      List("y", "esman"),
+      List("ye","sman"),
+      List("yes","man"),
+      List("yesm","an"),
+      List("yesma","n")
+    )
+
+    val result: Seq[Anagrams.Sentence] = for{
+      w <- a
+      l <- w.map(wordAnagrams)
+    } yield l
+
+
+
+
+    result.foreach(println)
   }
 
-  test("1") {
+  /*test("1") {
     assert(combinations(List()) == List(Nil))
   }
 
@@ -114,6 +132,6 @@ class AnagramsSuite extends FunSuite  {
       List("Linux", "rulez")
     )
     assert(sentenceAnagrams(sentence).toSet === anas.toSet)
-  }
+  }*/
 
 }
