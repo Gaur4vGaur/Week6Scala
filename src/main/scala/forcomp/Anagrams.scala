@@ -58,7 +58,7 @@ object Anagrams {
     * List(('a', 1), ('e', 1), ('t', 1)) -> Seq("ate", "eat", "tea")
     *
     */
-  lazy val dictionaryByOccurrences: Map[Occurrences, List[Word]] = {
+  lazy val dictionaryByOccurrences: Map[Occurrences, Sentence] = {
     val od = dictionary map (d => (wordOccurrences(d), d))
     od.groupBy {
       case (x, _) => x
@@ -68,7 +68,7 @@ object Anagrams {
   }
 
   /** Returns all the anagrams of a given word. */
-  def wordAnagrams(word: Word): List[Word] = dictionaryByOccurrences.getOrElse(wordOccurrences(word), Nil)
+  def wordAnagrams(word: Word): Sentence = dictionaryByOccurrences.getOrElse(wordOccurrences(word), Nil)
 
   /** Returns the list of all subsets of the occurrence list.
     * This includes the occurrence itself, i.e. `List(('k', 1), ('o', 1))`
@@ -92,8 +92,6 @@ object Anagrams {
     * Note that the order of the occurrence list subsets does not matter -- the subsets
     * in the example above could have been displayed in some other order.
     */
-  //def combinations(occurrences: Occurrences): List[Occurrences] = ???
-
   def combinations(occurrences: Occurrences): List[Occurrences] = {
 
     @tailrec
@@ -180,5 +178,34 @@ object Anagrams {
     *
     * Note: There is only one anagram of an empty sentence.
     */
-  def sentenceAnagrams(sentence: Sentence): List[Sentence] = ???
+  def sentenceAnagrams(sentence: Sentence): List[Sentence] = {
+
+    /*val occurrences: Occurrences = sentenceOccurrences(sentence)
+
+    val listOcc: List[Occurrences] = combinations(occurrences)
+
+    listOcc.map(occ => dictionaryByOccurrences.getOrElse(occ, Nil))*/
+
+    def c(o: Occurrences, prevHead: Occurrences, result: List[Sentence]): List[Sentence] = {
+      o match {
+        case Nil => result
+        case h :: tail =>
+          val newHead = h :: prevHead
+          val allCombinations: List[Occurrences] = combinations(newHead) ++ combinations(tail)
+          val interim: List[Sentence] = allCombinations.map{ x =>
+            dictionaryByOccurrences.getOrElse(x, Nil)
+          }
+          /*println(newHead + "--" + tail)
+          println(interim.toSet)*/
+          c(tail, newHead,result ++ interim.toSet)
+      }
+    }
+
+    sentence match {
+      case Nil => List(Nil)
+      case _ =>
+        val ana = sentenceOccurrences(sentence)
+        c(ana, Nil, List[Sentence](Nil))
+    }
+  }
 }

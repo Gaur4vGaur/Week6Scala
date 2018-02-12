@@ -10,6 +10,11 @@ import Anagrams._
 @RunWith(classOf[JUnitRunner])
 class AnagramsSuite extends FunSuite  {
 
+  test("3") {
+    val sentence = List("owl")
+    println(sentence.map(wordAnagrams))
+  }
+
   test("1") {
     assert(combinations(List()) == List(Nil))
   }
@@ -33,6 +38,9 @@ class AnagramsSuite extends FunSuite  {
 
 
   test("dictionaryByOccurrences.get: eat") {
+
+    println(dictionaryByOccurrences.get(List(('i',1), ('l',2), ('n',1), ('r',1), ('u',2), ('x',1), ('z',1))))
+
     assert(dictionaryByOccurrences.get(List(('a', 1), ('e', 1), ('t', 1))).map(_.toSet) === Some(Set("ate", "eat", "tea")))
   }
 
@@ -83,7 +91,7 @@ class AnagramsSuite extends FunSuite  {
 
   test("sentence anagrams: Linux rulez") {
     val sentence = List("Linux", "rulez")
-    val anas = List(
+    val anas: Seq[List[String]] = List(
       List("Rex", "Lin", "Zulu"),
       List("nil", "Zulu", "Rex"),
       List("Rex", "nil", "Zulu"),
