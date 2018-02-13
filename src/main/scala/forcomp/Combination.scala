@@ -7,26 +7,24 @@ object Combination {
 
     def c(in: List[Int]): Seq[List[Int]] = {
       in match {
-        case h::Nil => List(List(h))
+        case Nil => List(Nil)
         case h::tail =>
 
           val o1: Seq[List[Int]] = tail map { t =>
             List(h,t)
           }
 
-          val o: Seq[List[Int]] = c(tail) map { x =>
+          val o2 = c(tail)
+
+          val o: Seq[List[Int]] = o2 map { x =>
             h :: x
           }
 
-          (o ++ o1).toSet.toList
+          (o ++ o1 ++ o2).toSet.toList
       }
     }
 
-    c(in)
-
-
-
-
+    c(in).sortWith(_.length<_.length)
   }
 
 }
